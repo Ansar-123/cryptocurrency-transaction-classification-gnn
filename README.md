@@ -18,8 +18,19 @@ This project uses Graph Neural Networks (GNN) to classify cryptocurrency transac
 - ROC and Precision-Recall curve visualization
 
 ## Dataset
-Elliptic Bitcoin Dataset
+This project uses the Elliptic Bitcoin Dataset.
 
+Download the dataset from:
+https://www.kaggle.com/datasets/ellipticco/elliptic-data-set
+
+After downloading, place the files inside a folder called:
+
+/data
+
+Required files:
+- elliptic_txs_features.csv
+- elliptic_txs_classes.csv
+- elliptic_txs_edgelist.csv
 ## Results
 Model performance evaluated using:
 - Accuracy
